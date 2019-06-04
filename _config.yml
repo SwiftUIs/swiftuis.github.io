@@ -1,0 +1,47 @@
+# Site settings
+title: 个人博客
+email: cczufish@gmail.com
+description: > #cczufish的个人博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://applemusic.cc" # the base hostname & protocol for your site
+# url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+twitter_username: cczuyuhu
+github_username:  cczufish
+
+# Build settings
+#markdown: kramdown
+permalink: /:year/:month/:day/:title.html   #博文的固定链接
+paginate: 10                                #分页时每页博文数量
+author:                                     #自定义常亮
+  name: cczufish
+  email: cczuysh@gmail.com
+  link: http://applemusic.cc
+  weibo: https://twitter.com/cczuyuhu
+  github: http://github.com/cczufish
+title: 个人博客                             #自定义常量
+
+# avatar头像及Favicon
+avatar: http://oolkmbv7h.bkt.clouddn.com/WechatIMG1.jpeg
+#favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+locals:                                     #自定义常量
+  tags: 标签
+  about: 关于
+active: 技术                                 #自定义常量
+subscribe_rss: /pages/atom.xml              #订阅地址
+markdown: kramdown                         #markdown解释器
+
+# google analytics 设置
+#ga:
+#  id:
+#  url:
+#
+
+# baidu analytics 设置
+
+#ba:
+  #src: //hm.baidu.com/hm.js?22d94317cfb9f9e0bb476228d9f79278
+
+# disqus 设置
+disqus:
+  shortname: cczuysh
